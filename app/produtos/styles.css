@@ -1,0 +1,43 @@
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.produto {
+    display: inline-block;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #fff;
+    text-align: left; 
+}
+
+.produto img {
+    max-width: 150px; 
+    max-height: 100px; 
+    display: block; 
+    margin: 0 auto; 
+    border-radius: 5px;
+}
+
+.info {
+    padding: 10px;
+}
+
+.info h2 {
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+
+.info p {
+    margin: 5px 0;
+}
+
+.preco {
+    font-weight: bold;
+    color: #ff5733;
+    font-size: 1.2rem;
+}
